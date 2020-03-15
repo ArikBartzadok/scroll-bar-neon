@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon scroll bar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <section>
+        <h2>Neon Scroll Bar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem, quo porro explicabo, labore expedita dolorem quis doloremque eum natus sint. Quibusdam obcaecati ullam hic sed veritatis debitis nam cumque?</p>
+        <br>
+    </section>
+
+    <!-- Script JS -->
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+
+</body>
+</html>
