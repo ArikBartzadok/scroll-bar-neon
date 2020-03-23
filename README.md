@@ -5,6 +5,12 @@
 # scroll-bar-neon
 projeto de uma scroll bar com todas as cores do espectro viśivel de luz
 
+## Author
+
+[Diogo Ferreira](https://diogodeveloper.netlify.com/)
+
+# Support me
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C81IJH6)
 
 </div>
